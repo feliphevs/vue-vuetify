@@ -17,9 +17,9 @@
             </v-form>
           </v-card-text>
         <v-card-actions>
-          <v-btn color="success">Register</v-btn>
+          <v-btn color="success" to="/register">Register</v-btn>
           <v-spacer></v-spacer>
-          <v-btn color="info">Register</v-btn>
+          <v-btn color="info">Login</v-btn>
         </v-card-actions>
       </v-card>
 </template>
@@ -29,7 +29,7 @@ export default {
     data: () => ({
     exibir: false,
   }),
-  
+
   methods:{
     showHide(){
       this.exibir = !this.exibir;
